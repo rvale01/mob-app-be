@@ -12,7 +12,6 @@ app.get('/all-users', (req: Request, res: Response) => {
   res.send(allUsers)
 })
 
-
 app.listen(PORT, () => {
   console.log(`API listening on PORT ${PORT} `)
 })
